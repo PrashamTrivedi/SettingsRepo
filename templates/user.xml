@@ -1,0 +1,180 @@
+<templateSet group="user">
+  <template name="toolbar" value="    &lt;android.support.v7.widget.Toolbar&#10;            android:id=&quot;$id$&quot;&#10;            android:layout_width=&quot;match_parent&quot;&#10;            android:theme=&quot;$style$&quot;&#10;            android:background=&quot;?attr/colorPrimary&quot;&#10;            android:layout_height=&quot;wrap_content&quot;/&gt;&#10;" description="adds toolbar" toReformat="true" toShortenFQNames="true">
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="style" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="recyclerview" value="    &lt;android.support.v7.widget.RecyclerView&#10;            android:padding=&quot;$padding$&quot;&#10;            android:id=&quot;$id$&quot;&#10;            android:layout_width=&quot;match_parent&quot;&#10;            android:layout_height=&quot;match_parent&quot;/&gt;" description="adds recycler view" toReformat="true" toShortenFQNames="true">
+    <variable name="padding" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="id" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="coordinator" value="    &lt;android.support.design.widget.CoordinatorLayout&#10;            android:layout_width=&quot;match_parent&quot;&#10;            android:layout_height=&quot;wrap_content&quot;/&gt;" description="adds co-ordinator layout" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="appbar" value=" &lt;android.support.design.widget.AppBarLayout&#10;            android:layout_width=&quot;match_parent&quot;&#10;            android:layout_height=&quot;wrap_content&quot;&gt;" description="adds appbar" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="textInputLayout" value="    &lt;android.support.design.widget.TextInputLayout&#10;            android:id=&quot;@+id/$tilId$&quot;&#10;            app:errorEnabled=&quot;$errorEnabled$&quot;&#10;            android:layout_width=&quot;$tilWidth$&quot;&#10;            android:layout_height=&quot;$tilHeight$&quot;&gt;&#10;        &lt;EditText&#10;                android:id=&quot;@+id/$etId$&quot;&#10;                android:layout_width=&quot;fill_parent&quot;&#10;                android:layout_height=&quot;wrap_content&quot;&#10;                android:hint=&quot;$hintText$&quot;/&gt;&#10;    &lt;/android.support.design.widget.TextInputLayout&gt;" description="Inserts Text Input layout" toReformat="true" toShortenFQNames="true">
+    <variable name="tilId" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="errorEnabled" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tilWidth" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="tilHeight" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="etId" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="hintText" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="false" />
+      <option name="HTML" value="false" />
+      <option name="XSL_TEXT" value="false" />
+      <option name="XML" value="false" />
+      <option name="XML_TEXT" value="true" />
+      <option name="JSON" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JAVA_STATEMENT" value="false" />
+      <option name="JAVA_EXPRESSION" value="false" />
+      <option name="JAVA_DECLARATION" value="false" />
+      <option name="JAVA_COMMENT" value="false" />
+      <option name="JAVA_STRING" value="false" />
+      <option name="COMPLETION" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="GROOVY_EXPRESSION" value="false" />
+      <option name="GROOVY_STATEMENT" value="false" />
+      <option name="GROOVY_DECLARATION" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="c" value="false" />
+      <option name="OC_DECLARATION_C" value="false" />
+      <option name="OC_STATEMENT_C" value="false" />
+      <option name="OC_EXPRESSION_C" value="false" />
+      <option name="cpp" value="false" />
+      <option name="OC_DECLARATION_CPP" value="false" />
+      <option name="OC_STATEMENT_CPP" value="false" />
+      <option name="OC_EXPRESSION_CPP" value="false" />
+      <option name="OTHER" value="false" />
+    </context>
+  </template>
+  <template name="attributeSetter" value="@BindingAdapter(&quot;$attributeName$&quot;)&#10;public static void set$SetterName$(View view, $params$) {&#10;   $rest$&#10;}" description="Attribute setter for databinding" toReformat="true" toShortenFQNames="true">
+    <variable name="attributeName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SetterName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="params" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="rest" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_STRING" value="true" />
+      <option name="COMPLETION" value="true" />
+    </context>
+  </template>
+  <template name="databinding" value="&lt;layout xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;&#10;xmlns:tools=&quot;http://schemas.android.com/tools&quot;&gt;&#10;&lt;data&gt;&#10;&lt;variable&#10; name=&quot;$name$&quot;&#10; type=&quot;$type$&quot;&#10; /&gt;&#10;&lt;/data&gt;&#10;$SELECTION$&#10;&lt;/layout&gt;&#10;" description="Adds databinding" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="databindingvariable" value="&lt;variable&#10; name=&quot;$name$&quot;&#10; type=&quot;$type$&quot;&#10; /&gt;" description="Adds databinding variable" toReformat="true" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="type" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="card" value="&lt;android.support.v7.widget.CardView&#10;                android:id=&quot;@+id/$ID$&quot;&#10;                android:layout_width=&quot;match_parent&quot;&#10;                android:layout_height=&quot;wrap_content&quot;&gt;&lt;/android.support.v7.widget.CardView&gt;" description="Adds a cardview" toReformat="true" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="cardSurround" value="&lt;android.support.v7.widget.CardView&#10;                android:id=&quot;@+id/$ID$&quot;&#10;                android:layout_width=&quot;match_parent&quot;&#10;                android:layout_height=&quot;wrap_content&quot;&gt;&#10;                $SELECTION$&#10;                &lt;/android.support.v7.widget.CardView&gt;" description="Surround with card" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XML" value="true" />
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>
