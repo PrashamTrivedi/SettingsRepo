@@ -1,0 +1,77 @@
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="Actions.Crashlytics.CrashlyticsAction">
+    <keyboard-shortcut first-keystroke="alt f" />
+  </action>
+  <action id="ActivateAndroidToolWindow">
+    <keyboard-shortcut first-keystroke="alt 6" />
+  </action>
+  <action id="ActivateBuildVariantsToolWindow">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="ActivateGradleToolWindow">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="ActivatePreviewToolWindow">
+    <keyboard-shortcut first-keystroke="shift alt v" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="alt s" />
+  </action>
+  <action id="AndroidConnectDebuggerAction">
+    <keyboard-shortcut first-keystroke="alt d" />
+  </action>
+  <action id="Back">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+  <action id="CleanGradleProject">
+    <keyboard-shortcut first-keystroke="alt semicolon" />
+  </action>
+  <action id="Forward">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="InvalidateCaches">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
+  <action id="LocalHistory.ShowHistory">
+    <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="LocalHistory.ShowSelectionHistory">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="ShowFilePath">
+    <keyboard-shortcut first-keystroke="ctrl alt f12" />
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="ToggleDistractionFreeMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt d" />
+  </action>
+  <action id="Vcs.ShowDiffWithLocal">
+    <keyboard-shortcut first-keystroke="alt f2" />
+  </action>
+  <action id="Vcs.ShowTabbedFileHistory">
+    <keyboard-shortcut first-keystroke="shift alt g" />
+  </action>
+</keymap>

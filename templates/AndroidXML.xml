@@ -1,0 +1,9 @@
+<templateSet group="AndroidXML">
+  <template name="launcherFilter" value=" &lt;intent-filter&gt;&#10;                &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;&#10;&#10;                &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;&#10;            &lt;/intent-filter&gt;" description="Adds Launcher activity intentfilter" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+</templateSet>
