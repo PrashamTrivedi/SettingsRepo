@@ -9,6 +9,12 @@
   <action id="AndroidConnectDebuggerAction">
     <keyboard-shortcut first-keystroke="alt d" />
   </action>
+  <action id="Kotlin.NewFile">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
