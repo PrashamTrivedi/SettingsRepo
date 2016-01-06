@@ -1,0 +1,19 @@
+<templateSet group="mytemplates">
+  <template name="configstr" value="buildConfigField &quot;$typeName$&quot;, &quot;$variable$&quot;, &quot;\&quot;$value$\&quot;&quot;" description="Adds String BuildConfig Field" toReformat="false" toShortenFQNames="true">
+    <variable name="typeName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY" value="true" />
+      <option name="GROOVY_EXPRESSION" value="true" />
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="GROOVY_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="configothr" value="buildConfigField &quot;$typeName$&quot;, &quot;$variable$&quot;, &quot;$value$&quot;" description="Adds BuildConfig Field" toReformat="false" toShortenFQNames="true">
+    <variable name="typeName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="variable" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
