@@ -1,0 +1,6 @@
+<application>
+  <component name="GithubSettings">
+    <option name="AUTH_TYPE" value="TOKEN" />
+    <option name="SAVE_PASSWORD" value="false" />
+  </component>
+</application>
