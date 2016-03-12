@@ -172,4 +172,22 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
+  <template name="LH" value="&lt;LinearLayout&#10;    android:orientation=&quot;horizontal&quot;&#10;    android:layout_width=&quot;$width$&quot;&#10;    android:layout_height=&quot;$height$&quot;&gt;&#10;    &#10;    $SELECTION$&#10;    &#10;&lt;/LinearLayout&gt;" description="Surround With Horizontal Linear Layout" toReformat="false" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="height" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
+  <template name="LV" value="&lt;LinearLayout&#10;    android:orientation=&quot;vertical&quot;&#10;    android:layout_width=&quot;$width$&quot;&#10;    android:layout_height=&quot;$height$&quot;&gt;&#10;    &#10;    $SELECTION$&#10;    &#10;&lt;/LinearLayout&gt;" description="Surround With Vertical Linear Layout" toReformat="false" toShortenFQNames="true">
+    <variable name="width" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="height" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="XSL_TEXT" value="true" />
+      <option name="XML" value="true" />
+      <option name="XML_TEXT" value="true" />
+    </context>
+  </template>
 </templateSet>
